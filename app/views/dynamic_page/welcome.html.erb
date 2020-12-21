@@ -1,0 +1,21 @@
+<h1>View welcome</h1>
+<p>dynamique_page (avec 1 variables)</p>
+
+<br>
+<br>
+
+<!--afficher le first_name de la personnes ex/alhost:3000/dynamic_page/Benoit-->
+<p>Bienvenue sur votre page <%= @user.first_name %> !</p>
+
+<br>
+<br>
+<br>
+
+<!--afficher tout les potins-->
+<p>Voici les potins de chaques utilisateurs (uniquement id et title)</p>
+<%@gossip.each do |g|%>
+<u><%="Potin n° #{g.id}"%></u>
+<br>
+  <%="Titre du potin: #{g.title}"%>
+<br>
+<%end%>
