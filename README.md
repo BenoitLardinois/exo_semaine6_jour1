@@ -1,24 +1,19 @@
-# README
+# Voici comment lancer le programme :
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+DANS LE TERMINAL, TAPER LES COMMANDES SUIVANTES :
 
-Things you may want to cover:
+- git clone https://github.com/BenoitLardinois/exo_semaine6_jour1
 
-* Ruby version
+- cd exo_semaine6_jour1
 
-* System dependencies
+- bundle install
 
-* Configuration
+- rails db:migrate
 
-* Database creation
+- rails server
 
-* Database initialization
+# (laisser tourner le serveur)
 
-* How to run the test suite
+PUIS, DANS VOTRE NAVIGATEUR, SAISIR L'URL :
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- http://localhost:3000/welcome/votre_prénom
